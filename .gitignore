@@ -5,6 +5,7 @@ data/
 city_gpt.pt
 
 # IDE
+.idea/
 .vscode/
 
 # Python
