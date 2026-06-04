@@ -41,13 +41,13 @@ Use `--max-rows N` for a quick experiment:
 uv run city_gpt.py prepare --max-rows 500000
 ```
 
-## Google Colab
+## Kaggle
 
 Open the notebook directly:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/igui/city-gpt/blob/main/city_gpt.ipynb)
+[![Open In Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/igui/city-gpt/blob/main/city_gpt.ipynb)
 
-The notebook uses ephemeral Colab storage for data and saves model checkpoints to Google Drive.
+The notebook downloads data to `/kaggle/working/` (ephemeral, rebuilt each session) and saves the model checkpoint there too — checkpoints persist across sessions up to Kaggle's 20 GB output quota.
 
 ## Architecture
 
