@@ -1,0 +1,16 @@
+[project]
+name = "city-gpt"
+version = "0.1.0"
+description = "Character-level GPT trained on GeoNames allCountries data (Karpathy architecture)"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.2",
+    "tqdm>=4.66",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+city-gpt = "city_gpt:main"
+
+[tool.uv]
+dev-dependencies = []
