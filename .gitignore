@@ -2,7 +2,7 @@
 data/
 
 # model checkpoint — saved to Google Drive in Colab
-city_gpt.pt
+# city_gpt.pt
 
 # IDE
 .idea/
