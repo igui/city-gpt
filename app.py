@@ -16,6 +16,23 @@ st.set_page_config(
     layout="centered"
 )
 
+# Set background image
+page_bg_img = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+[data-testid="stHeader"] {
+    background-color: rgba(0,0,0,0);
+}
+</style>
+"""
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 st.title("🏙️ City GPT Name Generator")
 st.markdown("Generate realistic geographical names using a character-level Transformer trained on 13.4 million GeoNames records.")
 
