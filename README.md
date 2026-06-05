@@ -4,6 +4,8 @@
 
 A character-level Transformer trained on the [GeoNames allCountries](https://download.geonames.org/export/dump/) dataset, following [Andrej Karpathy's GPT](https://github.com/karpathy/ng-video-lecture/blob/master/gpt.py) architecture.
 
+🚀 **Live Demo:** Check out the interactive web app hosted on Streamlit Community Cloud: [**https://city-gpt.streamlit.app/**](https://city-gpt.streamlit.app/)
+
 ## What it does
 
 The model learns to generate geographic place records in the format:
