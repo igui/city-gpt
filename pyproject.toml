@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Character-level GPT trained on GeoNames allCountries data (Karpathy architecture)"
 requires-python = ">=3.11"
 dependencies = [
-    "torch>=2.2",
+    "torch>=2.12.1",
     "tqdm>=4.66",
     "numpy>=1.26",
     "streamlit>=1.58.0",
